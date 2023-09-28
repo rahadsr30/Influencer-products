@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.navbar h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.menu a {
+  text-decoration: none;
+  margin-right: 15px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+}
+.menu span {
+  margin-right: 15px;
+}
+/* Hero Section */
+.hero {
+  display: flex;
+  gap: 110px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.hero-title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #3a3a3a;
+  margin-bottom: 16px;
+}
+.hero-discription {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #3a3a3a;
+}
+.btn-primary {
+  border-radius: 41px;
+  background: #e02c6d;
+  padding: 8px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.image img {
+  width: 440px;
+  height: 414px;
+}
+.marketplace {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+}
+/* Popular Collection */
+.products-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.container-title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+.container {
+  width: 329px;
+  height: 450px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+.products img {
+  width: 100%;
+  height: 256px;
+}
+.container-info h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+.container-info p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #787885;
+  margin-top: 6px;
+}
+.container-info i {
+  color: #fb8200;
+  width: 11.068px;
+  height: 10.316px;
+  margin-top: 6px;
+}
+.container-info span {
+  color: #5e6366;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 10px;
+  text-align: center;
+}
+.see-more {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(224, 44, 109, 0.87);
+  margin-top: 50px;
+  text-align: end;
+  justify-content: end;
+  display: flex;
+  align-items: center;
+  margin-right: 60px !important;
+}
