@@ -201,8 +201,17 @@ footer {
     font-size: 17px;
   }
   .hero-info,
-  .navbar {
+  .navbar,
+  .last-section {
     padding: 10px;
+  }
+  .last-image {
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+  }
+  .last-image img {
+    width: 100%;
   }
   .image img {
     width: 100%;
